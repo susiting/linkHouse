@@ -638,6 +638,7 @@
 		padding: 3px 2px;
 		color: #00AE66;
 		margin-left: 5%;
+		font-size: 34px;
 	}
 	
 	.evaluate {
