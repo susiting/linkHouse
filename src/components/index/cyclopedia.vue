@@ -382,11 +382,12 @@
 		font-size: 14px;
 		color: #6b7072;
 		background-color: #F5F5F5;
+		height: 516px;
 	}
 	
 	.tabLe li {
 		padding: 15px 0;
-		border-right: 0.5px solid gainsboro;
+		border-right: 0.1px solid gainsboro;
 	}
 	
 	.tabRi {
@@ -416,8 +417,8 @@
 	
 	.cycActive {
 		background-color: #fff;
-		border-top: 0.5px solid gainsboro;
-		border-bottom: 0.5px solid gainsboro;
+		border-top: 0.1px solid gainsboro;
+		border-bottom: 0.1px solid gainsboro;
 		border-right: none!important;
 	}
 </style>

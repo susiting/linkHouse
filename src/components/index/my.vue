@@ -149,7 +149,6 @@
 	}
 	.footCont{
 		float: right;
-		margin-right: 30px;
 		font-size: 16px;
 		color: gainsboro;
 	}

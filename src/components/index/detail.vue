@@ -393,10 +393,10 @@
 			var oDetailCont3 = document.getElementsByClassName('detailCont3')[0];
 			document.onscroll = function() {
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				if(scrollTop > oDetailCont3.offsetTop) {
+				if(scrollTop > 249) {
 					oDetailCont3.style.position = "fixed"
 				} else {
-					oDetailCont3.style.position = ""
+					oDetailCont3.style.position = "static"
 
 				}
 			}

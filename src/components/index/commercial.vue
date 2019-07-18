@@ -16,7 +16,7 @@
 			<p class="contFirstBot c">
 				<span class="l">广州</span>
 				<i class="iconfont l" id="search">&#xe638;</i>
-				<input type="text" placeholder="搜索商铺或者写字楼" class="l" />
+				<input type="text" placeholder="搜索商铺或者写字楼" class="r" />
 				</input>
 			</p>
 		</section>
@@ -439,7 +439,6 @@
 	.good {
 		width: 45%;
 		float: right;
-		margin-top: 15px;
 	}
 	
 	.good p:nth-of-type(1) {

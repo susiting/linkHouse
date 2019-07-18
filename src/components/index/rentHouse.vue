@@ -176,10 +176,10 @@
 			 var oNewList = document.getElementsByClassName('newList')[0];
 			document.onscroll = function(){
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				if(scrollTop>oNewList.offsetTop){
+				if(scrollTop>93){
 					oNewList.style.position = "fixed"
 				}else{
-					oNewList.style.position = ""
+					oNewList.style.position = "static"
 				}
 			}
 		}
@@ -204,7 +204,7 @@
 	}
     /*newList*/
    .newList{
-   	padding:12px 20px;
+   	padding:10px 0;
    	text-align: center;
    	font-size: 14px;
    	color: #394043;

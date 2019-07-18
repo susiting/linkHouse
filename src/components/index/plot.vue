@@ -33,6 +33,9 @@
 			<p><span>均价</span>
 				<i class="iconfont">&#xe756;</i>
 			</p>
+			<p><span>类型</span>
+				<i class="iconfont">&#xe756;</i>
+			</p>
 			<p><span>楼龄</span>
 				<i class="iconfont">&#xe756;</i>
 			</p>
@@ -172,10 +175,10 @@
 			var oResoldContHead = document.getElementsByClassName('resoldContHead')[0];
 			document.onscroll = function() {
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				if(scrollTop > oResoldContHead.offsetTop) {
+				if(scrollTop > 241) {
 					oResoldContHead.style.position = "fixed"
 				} else {
-					oResoldContHead.style.position = ""
+					oResoldContHead.style.position = "static"
 				}
 			}
 		}
@@ -216,13 +219,13 @@
 	.resoldContHead {
 		top: 0;
 		left: 0;
-		padding: 12px 20px;
+		padding: 12px 0;
 		border-bottom: 1px solid gainsboro;
 		background-color: #fff;
 	}
 	
 	.resoldContHead>p {
-		width: 33%;
+		width: 25%;
 		float: left;
 		text-align: center;
 		font-size: 14px;

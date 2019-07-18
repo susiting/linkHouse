@@ -309,10 +309,10 @@
 			var oResoldContHead = document.getElementsByClassName('resoldContHead')[0];
 			document.onscroll = function(){
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				if(scrollTop>oResoldContHead.offsetTop){
+				if(scrollTop>395){
 					oResoldContHead.style.position = "fixed"
 				}else{
-					oResoldContHead.style.position = ""
+					oResoldContHead.style.position = "static"
 				}
 			}
 			 
@@ -333,8 +333,8 @@
 	    		}else{
 	    			this.reIndex=a
 	    			document.body.style.overflow="hidden"
-	    			resoldtype.style.height="calc(100% - 200px)";
-	    			resoldtype.style.backgroundColor="rgba(0,0,0,0.6)";
+	    			resoldtype.style.height="calc(100vh)";
+	    			resoldtype.style.backgroundColor="rgba(0,0,0,0.7)";
 	    		}
 	    	}
 	    }
@@ -500,15 +500,15 @@
   		width: 48%;
   		background-color: #f0f0f0;
   		font-size:14px ;
-  		padding-bottom: 250px;
+  		padding-bottom: 244px;
   	}
   	.resoldPosition p{
-  		padding: 10px 0 10px 24px;
+  		padding: 10px 0 10px 31px;
   	}
   	.resoldSubway{
   		width: 52%;
   		padding-left: 6%;
-  		height: 327px;
+  		height: 321px;
   		overflow: auto;
   		background-color: white;
   	}
@@ -550,7 +550,7 @@
   	}
   	
   	.fade-enter-active{
-				animation: enter 0.2s 1 linear;
+				animation: enter 0.5s 1 linear;
 			}
 
 	@keyframes enter{

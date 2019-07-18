@@ -164,7 +164,7 @@
     }
     /*newList*/
    .newList{
-   	padding: 15px 20px;
+   	padding: 10px 4px;
    	text-align: center;
    	font-size: 14px;
    	color: #394043;
@@ -172,6 +172,7 @@
    	left: 0;
    	z-index: 10;
    	background-color: #fff;
+   	border-bottom: 0.1px solid gainsboro;
    }
    .newList ul li{
    	width: 22%;

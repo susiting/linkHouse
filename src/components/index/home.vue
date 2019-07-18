@@ -68,7 +68,7 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/">
+					<router-link to="/my">
 						<img src="../../assets/home/home5.png" />
 						<p>海外</p>
 					</router-link>
@@ -99,13 +99,13 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/">
+					<router-link to="/my">
 						<img src="../../assets/home/con2.png" />
 						<p>找经纪人</p>
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/">
+					<router-link to="/my">
 						<img src="../../assets/home/con3.png" />
 						<p>问答</p>
 					</router-link>
@@ -123,7 +123,7 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/">
+					<router-link to="/my">
 						<img src="../../assets/home/con6.png" />
 						<p>购房资质</p>
 					</router-link>
@@ -135,7 +135,7 @@
 					</router-link>
 				</li>
 				<li>
-					<router-link to="/">
+					<router-link to="/my">
 						<img src="../../assets/home/con8.png" />
 						<p>查成交</p>
 					</router-link>
@@ -597,7 +597,7 @@
 	}
 	
 	.newHouse {
-		width: 65%;
+		width: calc(100% - 100px - 4%);
 		font-size: 12px;
 		margin: 20px 0;
 	}
@@ -645,7 +645,7 @@
 	}
 	
 	.rentHouse {
-		width: 65%;
+		width: calc(100% - 100px - 4%);
 		font-size: 12px;
 		margin: 20px 0;
 	}
@@ -675,22 +675,5 @@
 	
 	.more a {
 		color: #00ae65;
-	}
-	
-	#homeFixed {
-		width: 50px;
-		height: 50px;
-		border-radius: 50%;
-		background: #fff;
-		box-shadow: 0 4px 17px 0 rgba(0, 0, 0, .15);
-		position: fixed;
-		bottom: 140px;
-		right: 20px;
-	}
-	
-	#homeFixed img {
-		width: 26px;
-		margin-left: 12px;
-		margin-top: 12px;
 	}
 </style>
