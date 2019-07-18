@@ -310,7 +310,7 @@
 	/*commerSearch*/
 	
 	.commerSearch {
-		padding: 30px 30px 20px;
+		padding: 10px 30px 20px;
 	}
 	
 	.contFirstBot {
@@ -322,7 +322,7 @@
 	}
 	
 	.contFirstBot input {
-		width: 40%;
+		width: 50%;
 		line-height: 50px;
 		border: none;
 		outline: none;
@@ -439,6 +439,7 @@
 	.good {
 		width: 45%;
 		float: right;
+		padding-top: 5px;
 	}
 	
 	.good p:nth-of-type(1) {

@@ -50,8 +50,8 @@
 			        	<div class="mark">
 			        		<img src="../../assets/home/resold1.jpg"/>
 			        	</div>
-			        	<h3 class="markH1">省级小学就在附近</h3>
-			        	<p class="markP1">越秀小户型138万起</p>
+			        	<h3 class="markH1">省级小学附近</h3>
+			        	<p class="markP1">越秀小户138万起</p>
 			        </swiper-slide>
 			        <swiper-slide >
 			        	<div class="mark">
@@ -427,6 +427,7 @@
 	  	top: 30%;
 	  	 font-size: 15px;
 	  	 width: 82%;
+	  	 margin-left: 5%;
 	  }
 	  .resoldSwipe p{
 	  	width: 60%;
@@ -491,7 +492,7 @@
  .resoldType{
  	color: #394043;
  	position: fixed;
- 	top: 40px;
+ 	top: 37px;
  	left: 0;
  	background-color: #fff;
  	z-index: 20;
@@ -500,7 +501,7 @@
   		width: 48%;
   		background-color: #f0f0f0;
   		font-size:14px ;
-  		padding-bottom: 250px;
+  		padding-bottom: 248px;
   	}
   	.resoldPosition p{
   		padding: 10px 0 10px 31px;
