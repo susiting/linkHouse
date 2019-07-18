@@ -43,6 +43,7 @@
 		<section class="newHouseList c">
 			<ul class="contFourUsed c resoldConts">
 				<li class="c commonList" v-for="(item,index) in newList">
+					<router-link to="/detail">
 					<img :src="item.src" class="l" />
 					<div class="usedHouse l">
 						<h3>{{item.title}}</h3>
@@ -55,6 +56,7 @@
 							<li class="l">{{item.feature04}}</li>
 						</ul>
 					</div>
+					</router-link>
 				</li>
 			</ul>
 		</section>

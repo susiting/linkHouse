@@ -406,13 +406,11 @@
 
 <style scoped>
 	.detailCont3 {
-		padding: 0 20px;
 		top: 0;
 		left: 0;
 	}
-	
 	.detailCont3 .detailHead {
-		padding: 12px 0;
+		padding: 10px 20px;
 		border-top: 0.5px solid #e5e5e5;
 		border-bottom: 0.5px solid #e5e5e5;
 		background: #fff;
@@ -477,6 +475,10 @@
 	
 	.detailCont2Top:nth-child(3) {
 		border-right: none;
+		padding-left: 5%;
+	}
+	.detailCont2Top:nth-child(2) {
+		padding-left: 5%;
 	}
 	
 	.detailCont2Top p:nth-child(1) {
@@ -489,7 +491,6 @@
 		font-weight: bolder;
 		padding-top: 4px;
 	}
-	
 	.detailCont2Bot {
 		overflow: hidden;
 		margin: 15px 0;
@@ -603,6 +604,7 @@
 	
 	.agent .agentLi {
 		padding-bottom: 20px;
+		padding-top: 5px;
 	}
 	
 	.agent .agentLi img {
@@ -635,7 +637,6 @@
 	.agent .agentLi>i {
 		padding: 3px 2px;
 		color: #00AE66;
-		font-size: 34px;
 		margin-left: 5%;
 	}
 	
@@ -810,7 +811,8 @@
 		color: #333;
 		font-size: 24px;
 		font-weight: 400;
-		margin-right: 30%;
+		margin-right: 27%;
+		margin-top: 5px;
 	}
 	
 	.dynamic3 {
