@@ -1,0 +1,31 @@
+/*box-sizing: border-box;禁止内边距撑大元素*/
+* {box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{color:#172c45;text-decoration:none} 
+a:hover{text-decoration:none} 
+em,i{font-style:normal}   li{list-style:none}
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+html{
+	font-size: 62.5%;
+}
+html,
+body {
+	height: 100%;
+}
+.c{
+	width: 100%;
+	overflow: hidden;
+}
+input{
+	border: none;
+	outline: none;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
