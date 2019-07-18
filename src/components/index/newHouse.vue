@@ -102,13 +102,17 @@
 			})
 			.finally((f)=>{
 			})
+
+			
 			 var oNewList = document.getElementsByClassName('newList')[0];
+//				console.log(oNewList.offsetTop)
+			 
 			document.onscroll = function(){
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				if(scrollTop>oNewList.offsetTop){
+				if(scrollTop>212){
 					oNewList.style.position = "fixed"
 				}else{
-					oNewList.style.position = ""
+					oNewList.style.position = "static"
 				}
 			}
 		}
