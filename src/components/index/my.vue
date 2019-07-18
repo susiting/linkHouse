@@ -73,7 +73,7 @@
 			</ul>
 		</section>
 		<div id="homeFixed">
- 			<img src="../../assets/home/homefixed.png"/>
+			<img src="../../assets/home/homefixed.png" />
  		</div>
 	</main>
 </template>

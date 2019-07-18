@@ -193,7 +193,6 @@
    /*newHouseList*/
   .newHouseList{
   	padding: 0 20px;
-  	padding-bottom: 400px;
   }
   .commonList{
   	border-bottom: 1px solid gainsboro;

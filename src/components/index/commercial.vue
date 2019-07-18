@@ -16,7 +16,7 @@
 			<p class="contFirstBot c">
 				<span class="l">广州</span>
 				<i class="iconfont l" id="search">&#xe638;</i>
-				<input type="text" placeholder="搜索商铺或者写字楼" class="r" />
+				<input type="text" placeholder="搜索商铺或者写字楼" class="l" />
 				</input>
 			</p>
 		</section>
@@ -322,7 +322,7 @@
 	}
 	
 	.contFirstBot input {
-		width: 70%;
+		width: 40%;
 		line-height: 50px;
 		border: none;
 		outline: none;

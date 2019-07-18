@@ -491,7 +491,7 @@
  .resoldType{
  	color: #394043;
  	position: fixed;
- 	top: 43px;
+ 	top: 40px;
  	left: 0;
  	background-color: #fff;
  	z-index: 20;
@@ -500,7 +500,7 @@
   		width: 48%;
   		background-color: #f0f0f0;
   		font-size:14px ;
-  		padding-bottom: 244px;
+  		padding-bottom: 250px;
   	}
   	.resoldPosition p{
   		padding: 10px 0 10px 31px;

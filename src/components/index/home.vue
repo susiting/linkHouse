@@ -326,7 +326,9 @@
 
 		</footer>
 		<div id="homeFixed">
+			<router-link to="/my">
 			<img src="../../assets/home/homefixed.png" />
+			</router-link>
 		</div>
 	</main>
 </template>
